@@ -1,9 +1,9 @@
-package ru.patrick.application.petshop.constants;
+package ru.patrick.application.constatns;
 
 import lombok.experimental.UtilityClass;
 
 @UtilityClass
-public class Constants {
+public class PetShopConstants {
 
     public static final String ROOT = "https://api.retailrocket.ru";
     public static final String API = "/api";

@@ -9,13 +9,13 @@ import java.math.BigDecimal;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class PetShopFeedModel implements Serializable {
-
-    @JsonProperty("Size")
-    private Integer size;
+public class FeedModel implements Serializable {
 
     @JsonProperty("Name")
     private String name;
+
+    @JsonProperty("Size")
+    private Integer size;
 
     @JsonProperty("Price")
     private BigDecimal price;
